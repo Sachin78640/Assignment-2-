@@ -1,0 +1,3 @@
+z-index is a CSS property that controls the stacking order of positioned elements in the HTML document's stacking context. It determines which elements appear in front or behind other elements along the z-axis, which is the axis perpendicular to the screen.
+
+The z-index property accepts a numeric value and determines the stacking order based on that value. Elements with a higher z-index value are stacked in front of elements with lower z-index values. If two elements have the same z-index, the stacking order will be determined by their position in the HTML document's source code (later elements appear on top of earlier elements).
