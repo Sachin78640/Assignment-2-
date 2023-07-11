@@ -1,0 +1,13 @@
+box-sizing is a CSS property that determines how the total width and height of an element are calculated, including the content, padding, and border. There are two commonly used values for the box-sizing property: content-box and border-box.
+
+Content Box (default):
+
+With box-sizing: content-box, the width and height of an element are calculated based on its content size only.
+The width and height do not include the padding or border. The padding and border are added to the element's specified width and height, resulting in an overall larger rendered size.
+This is the default behavior of elements in the traditional CSS box model.
+
+Border Box:
+
+With box-sizing: border-box, the width and height of an element are calculated to include its content, padding, and border.
+The specified width and height directly control the overall size of the element, including the padding and border. The content area adjusts to fill the remaining space.
+This is the alternative box model introduced by the CSS3 specification and is often preferred in modern web development.
