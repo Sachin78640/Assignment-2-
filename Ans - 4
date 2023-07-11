@@ -1,0 +1,23 @@
+In CSS, inline, inline-block, and block are three different display property values that determine how elements are visually rendered and interact with other elements. Here's a breakdown of their characteristics:
+
+Inline:
+
+Elements with display: inline are rendered inline, meaning they flow along with the text and other inline elements.
+They do not start on a new line and only take up the necessary space to accommodate their content.
+By default, inline elements do not have a width or height.
+Examples of inline elements include <span>, <a>, <strong>, and <em>.
+
+Inline-Block:
+
+Elements with display: inline-block are rendered inline, but they also retain the characteristics of block-level elements.
+They flow along with the text like inline elements but can have width, height, padding, and margin properties.
+inline-block elements can be positioned vertically and horizontally using properties like vertical-align and text-align.
+Examples of inline-block elements include <img>, <button>, and <input>.
+
+Block:
+
+Elements with display: block are rendered as block-level elements.
+They start on a new line and occupy the full available width of their parent container by default.
+They can have width, height, padding, margin, and other box-model properties.
+Block-level elements can contain other block-level and inline-level elements.
+Examples of block elements include <div>, <p>, <h1> to <h6>, and <ul>.
